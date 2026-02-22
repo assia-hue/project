@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uwase Hiba - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- THEME TOGGLE BUTTON -->
+  <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <img src="image.jpg" alt="Uwase Hiba">
+    <h1>Uwase Hiba</h1>
+    <h2>Developer</h2>
+    <p>Turning ideas into interactive web experiences.</p>
+    <a href="#portfolio" class="cta-btn">View My Work</a>  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Uwase Hiba. I have a passion for technology and problem-solving, and I enjoy learning new programming languages and networking concepts.</p>
+    <p>I am currently studying Computer Science, 2nd Year.</p>
+    <p>My goal is to become a skilled Frontend Developer and Networking Professional, building web solutions and managing efficient networks.</p>
+    <div class="skills-container">
+      <h3>Skills</h3>
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">C Programming</span>
+        <span class="skill">Networking</span>
+        <span class="skill">Subnetting</span>
+        <span class="skill">Packet Tracer</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH SKILLS -->
+  <section class="tech-skills">
+    <h2>Technical Skills</h2>
+    <div class="cards">
+      <div class="card"><p>HTML</p></div>
+      <div class="card"><p>CSS</p></div>
+      <div class="card"><p>JavaScript</p></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="portfolio" class="portfolio">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>1. Calculator App</h3>
+      <p>Problem Solved: Basic arithmetic operations.</p>
+      <p>Technologies Used: HTML, CSS, JavaScript</p>
+      <p><a href="sc.png">Screenshot</a> | <a href="https://github.com/assia-hue/calc.git">GitHub</a></p>
+    </div>
+    <div class="project">
+      <h3>2. To-Do List</h3>
+      <p>Problem Solved: Track daily tasks.</p>
+      <p>Technologies: HTML, CSS, JS</p>
+      <p><a href="#">Screenshot</a> | <a href="https://github.com/assia-hue/list.git">GitHub</a></p>
+    </div>
+    <div class="project">
+      <h3>3. Portfolio Website</h3>
+      <p>Problem Solved: Showcase personal info and projects.</p>
+      <p>Technologies: HTML, CSS, JS</p>
+      <p><a href="#">Screenshot</a> | <a href="https://github.com/assia-hue/portifolio.git">GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- GPA CALCULATOR -->
+  <section class="calculator">
+    <h2>GPA Calculator</h2>
+    <form id="gpaForm">
+      <input type="number" name="course1" placeholder="Course 1 Mark (0-100)" required>
+      <input type="number" name="course2" placeholder="Course 2 Mark (0-100)" required>
+      <input type="number" name="course3" placeholder="Course 3 Mark (0-100)" required>
+      <button type="submit">Calculate GPA</button>
+    </form>
+    <p id="gpaResult"></p>
+  </section>
+
+  <!-- CV -->
+  <section class="cv">
+    <h2>Download CV</h2>
+    <a href="hiba_cv.pdf" download>Download CV</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: uwase@gmail.com | Phone: +250 797 456 234</p>
+| GitHub: <a href="https://github.com/assia-hue">github.com/uwasehiba</a></p>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Uwase Hiba. All Rights Reserved.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
